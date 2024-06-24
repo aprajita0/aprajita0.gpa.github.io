@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>GPA Calculator</h1>
+        <table id="table" class="table table-bordered">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Course Name</th>
+                    <th>Credits</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+                
+            </tbody>
+            <tfoot id="table-foot">
+                
+            </tfoot>
+        </table>
+
+        <div class="row">
+            <div class="col">
+                <input id="calculate-gpa" class="btn btn-success" type="button" value="Calculate Term GPA">
+            </div>
+            <div class="col">
+                <input id="reset" class="btn btn-warning" type="button" value="Clear All">
+            </div>
+            <div class="col">
+                <input id="add" class="btn btn-primary" type="button" value="Add Row">
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
